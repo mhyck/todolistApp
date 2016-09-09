@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+	<!-- meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+	<!-- font awesome -->
+	<script src="https://use.fontawesome.com/33adcd4c82.js"></script>
+	<!-- favorite icon -->
+	<link rel="favorite Icon" href="favicon.ico">
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- title -->
+	<title>to do list app</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<h1>To Do List</h1>
+
+				<form id="todoForm">
+					<div class="form-group">
+						<input id="todoInput" class="form-control" placeholder="What are your plans?">
+					</div>
+					<div class="form-group">
+						<button type="button" onclick="todoList()" class="btn btn-primary btn-lg">add to list</button>
+					</div>
+				</form>
+				<ul id="todoList">
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- bootstrap and javascript -->
+	<script src="js/bootstrap.js"></script>
+	
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+
+body {
+	text-align:center;
+}
+
+.container {
+	background-color: #ffffb3;
+	background-image: url(../img/paper.jpg);
+}
+
+.row h1 {
+	margin-bottom:10px;
+	margin-top: 80px;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 100px;
+}
+
+#todoInput  {
+	margin-bottom:40px;
+	border: solid black 5px;
+}
+
+li {
+	text-align:left;
+	font-size:50px;
+	font-family: 'Gochi Hand', cursive;
+}
+
+.form-group button {
+	background-color:  #cc6600;
+	border: none;
+	box-shadow: 0 5px #999;
+	margin-bottom: 100px;
+}
+
+.form-group button:hover {
+	background-color: #804000;
+}
+
+.form-group button:focus {
+	background-color: #804000;
+	outline: none;
+
+}
+
+.form-group button:active {
+	box-shadow: 0 0 #666;
+  	transform: translateY(4px);
+  	background-color: #804000;
+}
